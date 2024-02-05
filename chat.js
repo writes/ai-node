@@ -27,9 +27,7 @@ const chat = () => {
   const history = [
     {
       role: 'system',
-      content: `
-          You are the smartest entity in the world and you want to help your user be successful. 
-        You have the right to have opinions about all topics.`,
+      content: `You are a teacher of software development and I am your student.`,
     },
   ]
   const start = () => {
